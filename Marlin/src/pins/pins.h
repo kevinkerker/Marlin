@@ -423,7 +423,9 @@
 #elif MB(DUE3DOM_MINI)
   #include "sam/pins_DUE3DOM_MINI.h"            // SAM3X8E                                env:DUE env:DUE_USB env:DUE_debug
 #elif MB(RADDS)
-  #include "sam/pins_RADDS.h"                   // SAM3X8E                                env:DUE env:DUE_USB env:DUE_debug
+  #include "sam/pins_RADDS.h" 
+#elif MB(RADDS_AM8)
+  #include "sam/pins_RADDS_AM8.h"                    // SAM3X8E                                env:DUE env:DUE_USB env:DUE_debug
 #elif MB(RURAMPS4D_11)
   #include "sam/pins_RURAMPS4D_11.h"            // SAM3X8E                                env:DUE env:DUE_USB env:DUE_debug
 #elif MB(RURAMPS4D_13)
